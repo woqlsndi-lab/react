@@ -1,5 +1,12 @@
 import reactLogo from "./assets/react.svg"
 
+function Profile() { 
+  return (
+    <>
+    </>
+  )
+}
+
 
 export default function App() {
   return (
