@@ -1,13 +1,11 @@
-// import * as Foo from "./NamedComponent";
-import * as Foo from "./NamedComponent";
+import { NamedComponent1 as Foo, NamedComponent3 as Bar,} from "./NamedComponent";
 
-export default function NamedExportTest() {
+export function NamedComponentTest() {
   return (
     <>
-      <h1>Named Export Test</h1>
-      <Foo.NamedComponent1 />
-      <Foo.NamedComponent2 />
-      <Foo.NamedComponent3 />
+      <h1>Named Component Test</h1>
+      <Foo />
+      <Bar />
     </>
   );
 }

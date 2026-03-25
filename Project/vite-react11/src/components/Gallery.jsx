@@ -1,11 +1,12 @@
-import Profile from "./Profile" 
-
-export default function Gallary () {
-    return (
-        <>
-        <Profile />
-        <Profile />
-        <Profile />
-        </>
-    )
+import Profile from "./Profile";
+import MyTitle from "./MyTitle";
+export default function Gallery() {
+  return (
+    <>
+      <MyTitle />
+      <Profile />
+      <Profile />
+      <Profile />
+    </>
+  );
 }
