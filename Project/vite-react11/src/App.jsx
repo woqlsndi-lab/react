@@ -1,12 +1,10 @@
 import reactLogo from "./assets/react.svg"
 
 
-function App() {
+export default function App() {
   return (
     <>
     <img className= "button-icon" src={reactLogo} alt="" />
     </>
   )
 }
-
-export default App
