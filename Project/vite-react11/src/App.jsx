@@ -1,13 +1,8 @@
-import Gallery from "./components/Gallery"
-import { NamedComponentTest } from "./components/NamedComponentTest"
-
-
-
+import ParentComp from "./components/ParentComp";
 export default function App() {
   return (
     <>
-    {/* <NamedComponentTest /> */}
-    <Gallery/>
+      <ParentComp />
     </>
-  )
+  );
 }
