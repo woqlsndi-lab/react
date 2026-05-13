@@ -1,9 +1,9 @@
-import PackingList from "./components/PackingList";
+import ButtonCom from "./components/ButtonCom/ButtonCom";
 
 export default function App() {
   return (
     <>
-      <PackingList />
+      <ButtonCom />
     </>
   );
 }

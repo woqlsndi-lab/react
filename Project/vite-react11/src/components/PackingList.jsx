@@ -1,13 +1,13 @@
-import Items from "./Items";
+import Item from "./Item";
 
 export default function PackingList() {
   return (
     <section>
-      <h1>여행 짐 리스트</h1>
+      <h1>여행 준비 목록</h1>
       <ul>
-        <Items name="여분 옷" />
-        <Items name="칫솔" />
-        <Items name="화장품" isPacked="true"/>
+        <Item name="가방" isPacked={false} />
+        <Item name="핸드폰" isPacked={false} />
+        <Item name="카드" isPacked={true} />
       </ul>
     </section>
   );

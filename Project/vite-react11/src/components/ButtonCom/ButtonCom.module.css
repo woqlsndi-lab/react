@@ -1,0 +1,14 @@
+.title {
+  color: blue;
+}
+
+.navBar {
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+.myButton {
+  margin-right: 10px;
+  cursor: pointer;
+  color: brown;
+}
